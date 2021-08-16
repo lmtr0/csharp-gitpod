@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: |
+      echo "Enjoy"
+vscode:
+  extensions:
+    - ms-vscode.cpptools
