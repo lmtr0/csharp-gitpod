@@ -3,6 +3,7 @@ image:
 tasks:
   - init: |
       echo "Enjoy"
+      export PATH=$PATH:$HOME/.dotnet
 vscode:
   extensions:
-    - ms-vscode.cpptools
+    - muhammad-sammy.csharp
